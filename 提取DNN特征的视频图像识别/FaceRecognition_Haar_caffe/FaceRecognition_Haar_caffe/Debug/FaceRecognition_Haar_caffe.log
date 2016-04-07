@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/4/5 15:23:19。
+     1>项目“d:\documents\visual studio 2015\Projects\FaceRecognition_Haar_caffe\FaceRecognition_Haar_caffe\FaceRecognition_Haar_caffe.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt GetFace.cpp caffe.cpp
+         caffe.cpp
+     1>d:\opencv\opencv\build\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(106): error C2664: “cv::Mat::Mat(cv::Mat &&)”: 无法将参数 1 从“IplImage *”转换为“const cv::cuda::GpuMat &”
+         d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(106): note: 原因如下: 无法从“IplImage *”转换为“const cv::cuda::GpuMat”
+         d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(106): note: 源或目标有不完整类型
+     1>d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\caffe.cpp(113): warning C4018: “<”: 有符号/无符号不匹配
+         GetFace.cpp
+     1>d:\opencv\opencv\build\install\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\install\include\opencv2\dnn\blob.inl.hpp(51): error C2589: “(”:“::”右边的非法标记
+     1>d:\opencv\opencv\build\install\include\opencv2\dnn\blob.inl.hpp(51): error C2059: 语法错误:“::”
+     1>d:\opencv\opencv\build\install\include\opencv2\dnn\blob.inl.hpp(58): error C2589: “(”:“::”右边的非法标记
+     1>d:\opencv\opencv\build\install\include\opencv2\dnn\blob.inl.hpp(58): error C2059: 语法错误:“::”
+     1>d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\getface.cpp(26): error C2664: “cv::Mat::Mat(cv::Mat &&)”: 无法将参数 1 从“IplImage *”转换为“const cv::cuda::GpuMat &”
+         d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\getface.cpp(26): note: 原因如下: 无法从“IplImage *”转换为“const cv::cuda::GpuMat”
+         d:\documents\visual studio 2015\projects\facerecognition_haar_caffe\facerecognition_haar_caffe\getface.cpp(26): note: 源或目标有不完整类型
+         正在生成代码...
+     1>已完成生成项目“d:\documents\visual studio 2015\Projects\FaceRecognition_Haar_caffe\FaceRecognition_Haar_caffe\FaceRecognition_Haar_caffe.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.95

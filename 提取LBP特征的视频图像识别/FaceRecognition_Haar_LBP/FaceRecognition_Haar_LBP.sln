@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceRecognition_Haar_LBP", "FaceRecognition_Haar_LBP\FaceRecognition_Haar_LBP.vcproj", "{C95132BA-075B-47AA-8D72-59146448AC6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C95132BA-075B-47AA-8D72-59146448AC6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C95132BA-075B-47AA-8D72-59146448AC6B}.Debug|Win32.Build.0 = Debug|Win32
+		{C95132BA-075B-47AA-8D72-59146448AC6B}.Release|Win32.ActiveCfg = Release|Win32
+		{C95132BA-075B-47AA-8D72-59146448AC6B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
